@@ -19,10 +19,10 @@
       <img class="d-block w-100" src="https://source.unsplash.com/1400x400/?nature" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://source.unsplash.com/1400x300/?technology" alt="Second slide">
+      <img class="d-block w-100" src="https://source.unsplash.com/1400x400/?technology" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://source.unsplash.com/1400x300/?water" alt="Third slide">
+      <img class="d-block w-100" src="https://source.unsplash.com/1400x400/?water" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

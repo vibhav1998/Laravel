@@ -5,7 +5,7 @@
 <div class="container pt-7">
     <form method="POST" action="{{ route('register') }} class=" form-signin">
         @csrf
-        <h1 class="h3 mb-3 font-weight-normal">{{ __('Register') }}</h1>
+        <h1 class="h3 mb-3 text-center font-weight-normal">{{ __('Register') }}</h1>
 
         <label for="name" class="sr-only">{{ __('Name') }}</label>
         <input id="name" placeholder="Name" type="text" class="form-control @error('name') is-invalid @enderror mb-2"

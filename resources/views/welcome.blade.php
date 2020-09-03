@@ -29,13 +29,15 @@
 
 
 @section('content')
+
     @include('nav')
+
     <div>
     <div class="centered">
     <div>
     <h1>Welcome To This Project</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate doloremque non rerum! Autem modi error labore placeat id consectetur ipsum natus dolore quisquam! Cumque quisquam, deleniti sapiente recusandae non illo eveniet, esse fuga, distinctio nam facere placeat blanditiis! Tempora ipsum ut voluptatem veritatis praesentium ex, commodi sapiente voluptatum aliquam hic.</p>
-    <button type="button" class="mt-2 btn btn-danger"> <a  href="/about"> About</button></a>
+    <a  href="/about"><button type="button" class="mt-2 btn btn-danger"> About</button></a>
     </div>
     </div>
     </div>

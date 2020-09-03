@@ -5,7 +5,7 @@
 <div class="container pt-7">
     <form method="POST" action="{{ route('login') }}" class="form-signin">
         @csrf
-        <h1 class="h3 mb-3 font-weight-normal">{{ __('Login') }}</h1>
+        <h1 class="h3 mb-3 text-center font-weight-normal">{{ __('Login') }}</h1>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input id="email" type="email" placeholder="Email Address"
             class="mb-1 form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"
@@ -34,7 +34,7 @@
                     {{ __('Remember Me') }}
                 </label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block mb-1" type="submit"> {{ __('Login') }}
+            <button class="btn btn-lg btn-primary mb-1" type="submit"> {{ __('Login') }}
             </button>
 
             @if (Route::has('password.request'))
