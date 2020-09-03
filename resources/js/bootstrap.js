@@ -11,6 +11,8 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
+    require("argon-design-system-free/assets/js/argon-design-system");
+
 } catch (e) {}
 
 /**
