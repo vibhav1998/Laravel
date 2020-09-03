@@ -23,14 +23,14 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet">
 
     <!-- Icons -->
-    <link href="/assets/vendor/nucleo/css/nucleo-icons.css" rel="stylesheet">
+    <link href="{{ asset('css/nucleo-icons.css')}}" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link type="text/css" href="/assets/css/argon-design-system.min.css" rel="stylesheet">
+    <link type="text/css" href="{{ asset('css/argon-design-system.min.css')}}" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
 
 
 </head>
@@ -102,7 +102,8 @@
     <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- Theme JS -->
-    <script src="/assets/js/argon-design-system.min.js"></script>
+    <script src="{{ asset('js/argon-design-system.min.js')}}"></script>
 </body>
 
 </html>
+

@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+
 <div class="container pt-7">
     <form method="POST" action="{{ route('login') }}" class="form-signin">
         @csrf
